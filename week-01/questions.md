@@ -196,3 +196,42 @@ No incorrect or unsupported claim was found in this particular test.
 ### R - Reflection
 
 This experiment showed me that an AI response can sound clear and confident, but it is still important to check factual information with a reliable source. In this test, both AI assistants gave a correct answer, so the experiment did not expose a hallucination. However, checking the answer against an independent source helped confirm that the information was accurate.
+
+
+
+## Q5 - AI Assistant vs Search vs Authoritative Reference
+
+### A - Answer
+
+Question:
+
+What is the difference between SRAM and DRAM?
+
+I investigated the same question using an AI assistant, a web search, and an authoritative technical reference.
+
+### Comparison
+
+| Method | Answer / Findings | Accuracy | Explanation | Traceability | Ease of verification |
+|---|---|---|---|---|---|
+| Gemini | SRAM uses flip-flops and does not need refreshing. DRAM uses a transistor and capacitor and needs periodic refreshing. SRAM is faster and more expensive, while DRAM is cheaper and has higher density. | Good | Detailed comparison with a table | Moderate | Easy |
+| Google Search | The search results showed that SRAM is faster and more expensive and does not need refreshing. DRAM is slower, cheaper, and needs refreshing. | Good | Clear summary and comparison table | Good | Easy |
+| Intel technical reference | Intel explains that a typical SRAM cell uses six transistors and does not need refreshing, while a typical DRAM cell uses one transistor and one capacitor and requires periodic refreshing. Intel also compares speed, cost, capacity, and typical use. | High | Technical and detailed | High | Easy |
+
+### E - Evidence
+
+The Google search results were useful for quickly finding the main differences between SRAM and DRAM.
+
+For the authoritative reference, I used Intel technical documentation. It explains the structure and operation of SRAM and DRAM and compares their speed, cost, capacity, and typical applications.
+
+Source:
+- [Intel - External Memory Interface Handbook](https://cdrdv2-public.intel.com/737517/emi-16.1-710283-737517.pdf)
+
+### V - Verification
+
+I compared the important claims from the AI answer and Google search with the Intel reference. The main points matched: SRAM does not require periodic refresh and is generally faster and more expensive, while DRAM requires refresh and is generally denser and lower cost.
+
+The authoritative reference was more useful for verification because it provides technical details and explains the memory cell structures.
+
+### R - Reflection
+
+This comparison showed me that AI is useful for getting a quick explanation, while search is useful for finding different sources and information. An authoritative reference is more useful when I need to confirm an important technical claim. I would use AI for understanding a topic, search for finding information, and a primary or authoritative source before making an important engineering decision.
