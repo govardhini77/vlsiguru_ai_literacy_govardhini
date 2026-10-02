@@ -355,3 +355,51 @@ I learned that using AI does not remove human responsibility. AI can help with i
 ### Responsible AI rule
 
 I will use AI to assist with important decisions, but I will verify the evidence and keep the final decision with a responsible human when the consequences of an error are significant.
+
+
+
+## Q8 - Find AI Around You
+
+### A - Answer
+
+AI and machine learning are already used in many applications that I use in everyday life. I checked some common examples and looked for public information about how they work.
+
+### Examples
+
+| System / Application | AI involvement | Task type | Evidence / Source | My conclusion |
+|---|---|---|---|---|
+| Google Maps | Yes, machine learning is used | Prediction | Google explains that Maps uses machine learning to predict traffic and travel times. | AI/ML is involved in predicting travel time and traffic conditions. |
+| Gmail spam filter | Yes, machine learning is used | Classification | Google explains that Gmail uses machine learning to identify emails that are likely to be spam. | AI/ML is involved in classifying emails as spam or not spam. |
+| Spotify recommendations | Yes, machine learning is used | Recommendation | Spotify explains that machine learning is used to personalize music and podcast recommendations. | AI/ML is involved in recommending content based on user activity and preferences. |
+| iPhone Face ID | Yes, machine learning is used | Recognition | Apple explains that Face ID uses machine learning for face recognition. | AI/ML is involved in recognizing and matching the user's face. |
+| Apple Photos people recognition | Yes, machine learning is used | Recognition | Apple explains that Photos uses machine learning to recognize people in photos. | AI/ML is involved in identifying people in images. |
+
+### A simpler rule-based example
+
+Gmail spam filtering is an example where a simpler rule-based approach could also be used. For example, a basic system could mark an email as spam if it contains certain words or comes from a blocked sender.
+
+However, Google explains that machine learning can learn patterns from email data and adapt to new spam patterns. This makes it different from only using a fixed list of rules.
+
+### E - Evidence
+
+I checked the examples using information published by the companies that provide these services.
+
+Sources:
+
+- [Google - How AI helps Google Maps predict traffic and determine routes](https://blog.google/products-and-platforms/products/maps/google-maps-101-how-ai-helps-predict-traffic-and-determine-routes/)
+
+- [Google - How machine learning in Gmail helps identify spam](https://blog.google/products-and-platforms/products/workspace/how-machine-learning-g-suite-makes-people-more-productive/)
+
+- [Spotify Engineering - How Spotify uses ML for personalization](https://www.engineering.atspotify.com/2021/12/how-spotify-uses-ml-to-create-the-future-of-personalization)
+
+- [Apple Support - About Face ID advanced technology](https://support.apple.com/en-in/102381)
+
+- [Apple Machine Learning Research - Recognizing People in Photos](https://machinelearning.apple.com/research/recognizing-people-photos)
+
+### V - Verification
+
+I checked the public information from Google, Spotify, and Apple before deciding that these examples use AI or machine learning. I did not assume that a feature is AI just because it looks smart. The sources specifically mention machine learning or AI being used for these features.
+
+### R - Reflection
+
+I learned that AI is already part of many applications I use every day. Before this question, I did not think much about things like spam filtering, map predictions, music recommendations, and face recognition as AI systems. I also learned that not every automated feature needs AI because some simple tasks can be done using fixed rules.
