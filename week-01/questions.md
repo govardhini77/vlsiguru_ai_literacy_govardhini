@@ -160,3 +160,39 @@ I checked that my explanation includes all the main stages given in the assignme
 ### R - Reflection
 
 Before this question, I thought an AI chatbot mainly searches for an answer and gives it to me. Now I understand that an LLM processes the input and predicts the next tokens to build a response. I also learned that a fluent answer is not always a correct answer, so I should verify important information instead of trusting the response immediately.
+
+
+
+## Q4 - Hallucination Experiment: Can AI Sound Confident and Still Be Wrong?
+
+### A - Answer
+
+For this experiment, I asked the same factual question to two different AI assistants and then checked their answers using an independent reference source.
+
+Question asked:
+
+What is the SI unit of electrical resistance?
+
+### Experiment results
+
+| AI Assistant | Response summary | Verified claim | Evidence | Result |
+|---|---|---|---|---|
+| ChatGPT | The SI unit of electrical resistance is the ohm (Ω). | The SI unit of electrical resistance is the ohm. | NIST SI Units | Correct |
+| Gemini | The SI unit of electrical resistance is the ohm (Ω). It also explained the relationship as 1 Ω = 1 V / 1 A. | The SI unit of electrical resistance is the ohm. | NIST SI Units | Correct |
+
+### E - Evidence
+
+I checked the answer using the National Institute of Standards and Technology (NIST). NIST identifies the ohm (Ω) as the SI unit of electrical resistance.
+
+Source:
+- [NIST - SI Units](https://www.nist.gov/pml/owm/metric-si/si-units)
+
+### V - Verification
+
+Both AI assistants gave the same answer, and the answer matched the information from the NIST reference. Gemini also gave the relationship between resistance, voltage, and current, which is consistent with the definition of the ohm.
+
+No incorrect or unsupported claim was found in this particular test.
+
+### R - Reflection
+
+This experiment showed me that an AI response can sound clear and confident, but it is still important to check factual information with a reliable source. In this test, both AI assistants gave a correct answer, so the experiment did not expose a hallucination. However, checking the answer against an independent source helped confirm that the information was accurate.
