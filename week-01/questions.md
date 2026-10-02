@@ -235,3 +235,84 @@ The authoritative reference was more useful for verification because it provides
 ### R - Reflection
 
 This comparison showed me that AI is useful for getting a quick explanation, while search is useful for finding different sources and information. An authoritative reference is more useful when I need to confirm an important technical claim. I would use AI for understanding a topic, search for finding information, and a primary or authoritative source before making an important engineering decision.
+
+
+
+## Q6 - What Is an AI Agent?
+
+### A - Answer
+
+An AI agent is a system that can use an AI model along with tools and actions to complete a task. A simple chatbot mainly responds to a user's message, while an agent can take additional steps and use tools when needed.
+
+### Five important ideas
+
+LLM:
+
+A Large Language Model is an AI model that understands and generates text. It can answer questions, explain concepts, and generate different types of text.
+
+LLM application:
+
+An LLM application is a software application that uses an LLM to provide a specific function. For example, a customer support application can use an LLM to answer customer questions.
+
+RAG system:
+
+RAG stands for Retrieval-Augmented Generation. It retrieves relevant information from a knowledge source and provides that information to the LLM so that it can generate a response using the retrieved context.
+
+Tool-using assistant:
+
+A tool-using assistant is an AI system that can use external tools to perform tasks or get information. For example, it may use a calculator, database, or search tool.
+
+AI agent:
+
+An AI agent is a system that can use a model, tools, and a workflow to work toward a goal. It can decide what step to take next based on the task and the results it receives.
+
+### Comparison
+
+| System | Main purpose | Uses external information or tools? | Can work through multiple steps? |
+|---|---|---|---|
+| LLM | Understands and generates text | Not by itself | No |
+| LLM application | Uses an LLM for a specific function | Depends on the application | Depends on the application |
+| RAG system | Retrieves information and uses it to generate a response | Yes | Limited to the retrieval and response process |
+| Tool-using assistant | Uses external tools to get information or perform tasks | Yes | Yes, depending on the workflow |
+| AI agent | Works toward a goal using a model, tools, and multiple steps | Yes | Yes |
+
+### Simple architecture
+
+```text
+User request
+     ↓
+AI model
+     ↓
+Decide whether a tool is needed
+     ↓
+Tool call
+     ↓
+Tool result
+     ↓
+Decision / next step
+     ↓
+Final response
+```
+
+### Agent vs simple chatbot
+
+A simple chatbot mainly generates a response to a user's message. An AI agent can do more than generate text. It can use tools, receive the results, decide what to do next, and continue through multiple steps to complete a task.
+
+### Non-VLSI example
+
+A travel planning agent is one simple example. A user can ask it to plan a trip. The agent can search for travel information, check hotel availability, compare options, and prepare a final travel plan based on the information it finds.
+
+### E - Evidence
+
+I checked this explanation using a reliable reference about AI agents and how they use models, tools, and actions.
+
+Source:
+- [IBM Think - What Are AI Agents?](https://www.ibm.com/think/topics/ai-agents)
+
+### V - Verification
+
+I checked that the explanation includes all five concepts required in the question. I also checked that the architecture shows the flow from the user request to the AI model, tool call, tool result, decision, and final response. The comparison also shows how an AI agent differs from an LLM, LLM application, RAG system, and tool-using assistant.
+
+### R - Reflection
+
+I learned that an AI agent is more than a chatbot that generates text. An agent can use tools and work through multiple steps to complete a task. This helped me understand why agents can be useful for more complex workflows.
