@@ -95,3 +95,68 @@ I checked each example separately instead of assuming that every automated syste
 ### R - Reflection
 
 Before this question, I sometimes thought that any smart-looking software was AI. Now I understand that some programs are just following fixed rules. The important difference is whether the system is using learned patterns or generating content instead of only following predefined instructions.
+
+
+
+## Q3 - What Happens When You Ask an LLM a Question?
+
+### A - Answer
+
+When a user sends a question to an LLM, the model processes the prompt and generates a response step by step. It uses patterns learned during training to predict what text should come next.
+
+### Simple flow
+
+```text
+Prompt
+  ↓
+Tokens
+  ↓
+Model processing
+  ↓
+Probability distribution
+  ↓
+Next-token selection
+  ↓
+Generated response
+```
+
+### What each stage means
+
+- Prompt: The prompt is the input given by the user. It can be a question, instruction, or request.
+
+- Tokens: The model breaks the input into smaller pieces called tokens. A token can be a word, part of a word, or a symbol.
+
+- Context: Context is the information available to the model while generating the response. It helps the model understand the question and the information already given in the conversation.
+
+- Model processing: The language model processes the tokens and uses patterns learned during training to determine what should come next.
+
+- Probability: The model gives different possible next tokens different probabilities. Some tokens are more likely than others based on the context.
+
+- Next-token prediction: The model predicts a likely next token and continues this process to build the response.
+
+- Generated response: The selected tokens are combined to produce the response shown to the user.
+
+### Training vs Inference
+
+Training is the stage where the model learns patterns from large amounts of data.
+
+Inference is when the trained model is used to process a user's prompt and generate a response.
+
+### Why can an LLM give a fluent but incorrect answer?
+
+An LLM can produce a response that sounds clear and confident even when the information is wrong or unsupported. This is because the model predicts likely text based on patterns learned during training. It does not automatically verify every statement against a reliable source. Because of this, an answer can sound correct while still containing mistakes.
+
+### E - Evidence
+
+I checked my explanation using a reliable educational source about large language models and how they generate text.
+
+Source:
+- [IBM Think - What are Large Language Models (LLMs)?](https://www.ibm.com/think/topics/large-language-models)
+
+### V - Verification
+
+I checked that my explanation includes all the main stages given in the assignment: prompt, tokens, model processing, probability distribution, next-token prediction, and generated response. I also checked the difference between training and inference and verified why an LLM can produce fluent but incorrect information.
+
+### R - Reflection
+
+Before this question, I thought an AI chatbot mainly searches for an answer and gives it to me. Now I understand that an LLM processes the input and predicts the next tokens to build a response. I also learned that a fluent answer is not always a correct answer, so I should verify important information instead of trusting the response immediately.
