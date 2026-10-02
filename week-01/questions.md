@@ -447,3 +447,73 @@ I also checked that the explanation of next-token prediction matches the basic w
 ### R - Reflection
 
 This question helped me understand the difference between prediction, classification, and generation. I also understood that many things that look different, such as writing an email and answering a question, can use the same basic next-token prediction process.
+
+
+
+## Q10 - Design Your Personal AI Verification Protocol
+
+### A - Answer
+
+If I use an AI assistant for engineering work, I will not directly trust the result. I will check it step by step before using it.
+
+### My AI Verification Flow
+
+```text
+AI-generated result
+        ↓
+1. Define the problem
+        ↓
+2. Inspect the AI output
+        ↓
+3. Check assumptions
+        ↓
+4. Check evidence / source
+        ↓
+5. Test the result
+        ↓
+6. Compare and recheck
+        ↓
+7. Accept / Reject / Revise
+        ↓
+Use the verified result
+```
+
+### 7-step verification process
+
+| Step | What I will do | Why I will do it | Failure it can catch |
+|---|---|---|---|
+| 1. Define the problem | Clearly understand what I need to solve and what result I need. | To make sure I am solving the correct problem. | Wrong or unclear problem |
+| 2. Inspect the AI output | Read the answer carefully and check what the AI has given me. | An AI answer can look correct even when it has mistakes. | Accepting the answer without checking |
+| 3. Check assumptions | Look at the assumptions made by the AI and see if they are suitable for my problem. | Wrong assumptions can lead to a wrong answer. | Hidden or incorrect assumptions |
+| 4. Check evidence / source | Check important facts using reliable sources such as official documentation, standards, or trusted technical references. | AI can give information that is unsupported or incorrect. | False or unsupported information |
+| 5. Test the result | Test calculations, examples, code, or other results when possible. | Testing helps check whether the result actually works. | Calculation errors, wrong logic, or incorrect results |
+| 6. Compare and recheck | Compare the AI result with the information I verified and check any differences. | This helps me find mistakes before making a final decision. | Missing differences or mistakes |
+| 7. Accept / Reject / Revise | Decide whether to accept the result, reject it, or revise it before using it. | The final decision should be based on verification, not only on the AI answer. | Using an unverified result |
+
+### Worked example
+
+Suppose I ask an AI assistant:
+
+"Five notebooks cost ₹60 each. What is the total cost?"
+
+The AI answers ₹300.
+
+First, I check the problem and the given price. Then I calculate it myself:
+
+5 × ₹60 = ₹300
+
+The result matches, so I can accept the answer.
+
+If the AI had given ₹350, I would reject that result, check the calculation again, and use the corrected answer of ₹300.
+
+### E - Evidence
+
+I followed the Week 1 assessment guidance for creating a verification process. The assessment says the process should include defining the problem, inspecting assumptions, checking evidence or sources, testing the result, and deciding whether to accept, reject, or revise the output.
+
+### V - Verification
+
+I checked my seven steps against the requirements in the assignment. The process includes all the required parts: defining the problem, checking assumptions, checking evidence, testing the result, and making a final accept, reject, or revise decision.
+
+### R - Reflection
+
+I learned that an AI answer should not be treated as the final answer immediately. Checking the problem, assumptions, sources, and result can help me find mistakes before using the information. I can use this process for my future engineering work as well.
