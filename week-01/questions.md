@@ -55,3 +55,43 @@ I compared the information from the sources with my own understanding. I verifie
 ### R - Reflection
 
 Before learning this, I thought AI, Machine Learning and Generative AI were almost the same thing. Now I understand that they are connected but have different roles. I also understood that an AI agent is different from a normal Generative AI chatbot because an agent can use tools and perform multiple actions to complete a task.
+
+
+
+## Q2 - Is Everything That Looks Intelligent Actually AI?
+
+### A - Answer
+
+Not everything that looks intelligent is actually AI. Some programs just follow fixed instructions written by a programmer, while AI systems can learn patterns from data or generate new content.
+
+| Example | Classification | Why |
+|---|---|---|
+| A. Calculator produces 25 × 16 = 400 | Traditional software | The calculator follows a fixed mathematical operation. It does not learn from data. |
+| B. Program says If temperature > 80°C, display WARNING | Traditional software | This is a fixed rule written by a programmer. The program only checks the condition and gives the defined output. |
+| C. Email system identifies spam using patterns learned from previous email data | Machine-learning-based AI | The system learns patterns from previous email data and uses them to identify spam. |
+| D. AI assistant writes a summary of a document | Generative AI | The AI generates new text based on the information in the document and the user's request. |
+| E. Navigation app predicts estimated arrival time using traffic and historical data | Machine-learning-based AI | The system can use traffic and historical data to predict the estimated arrival time. |
+
+### Why these classifications are different
+
+The calculator and the temperature warning program mainly follow instructions that were already defined. They do not learn from data.
+
+The spam detection example uses patterns learned from data, so it is a machine-learning-based AI system. The navigation example also uses data to make a prediction.
+
+The AI assistant is different because it generates new content, such as a summary, based on the input it receives.
+
+### What makes AI different from a program that simply follows explicit instructions?
+
+A traditional program usually follows rules that are directly written by the programmer. It gives an output based on those instructions. An AI system can learn patterns from data or generate an output based on what it has learned or been trained on. So, an automated program is not automatically AI just because it looks intelligent.
+
+### E - Evidence
+
+I checked the classification and reasoning using the Week 1 assignment requirements and reviewed the difference between traditional rule-based software, machine learning, and generative AI.
+
+### V - Verification
+
+I checked each example separately instead of assuming that every automated system is AI. I verified that the calculator and temperature warning use fixed instructions, while spam detection and ETA prediction use data-based patterns or predictions. I also checked that generating a document summary fits the idea of Generative AI.
+
+### R - Reflection
+
+Before this question, I sometimes thought that any smart-looking software was AI. Now I understand that some programs are just following fixed rules. The important difference is whether the system is using learned patterns or generating content instead of only following predefined instructions.
