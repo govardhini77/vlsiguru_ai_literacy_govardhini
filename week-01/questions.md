@@ -316,3 +316,42 @@ I checked that the explanation includes all five concepts required in the questi
 ### R - Reflection
 
 I learned that an AI agent is more than a chatbot that generates text. An agent can use tools and work through multiple steps to complete a task. This helped me understand why agents can be useful for more complex workflows.
+
+
+
+
+## Q7 - Where Should Humans Still Make the Decision?
+
+### A - Answer
+
+AI can be useful for reading documents, answering questions, summarizing information, generating text, and suggesting actions. However, there are situations where a human should still check and approve the result before taking action.
+
+### Situations requiring human verification
+
+| Situation | Possible failure | Required verification | Who/what approves the result |
+|---|---|---|---|
+| Medical information or health advice | The AI may give incorrect or incomplete information. | Check with a qualified medical professional or reliable medical source. | Medical professional |
+| Financial decision | The AI may misunderstand financial information or give an unsuitable suggestion. | Check the information with official financial sources and relevant records. | Person making the decision or qualified financial professional |
+| Engineering calculation or design | A wrong calculation or assumption could cause a technical failure. | Recalculate and test the result using reliable technical references or engineering tools. | Engineer |
+| Important legal or official document | The AI may misunderstand requirements or include incorrect information. | Check the document against official requirements or legal sources. | Responsible person or qualified professional |
+| Safety-related instruction | Incorrect information could create a safety risk. | Check the instruction against official safety procedures and reliable documentation. | Responsible safety authority or qualified person |
+
+### E - Evidence
+
+I checked this explanation using the National Institute of Standards and Technology (NIST) AI Risk Management Framework. NIST explains that trustworthy AI requires attention to risks, reliability, safety, accountability, and human oversight.
+
+Source:
+- [NIST - AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework)
+
+
+### V - Verification
+
+I checked that each situation includes a possible failure, a way to verify the information, and a person or source responsible for approving the final result. I also made sure the examples cover different types of decisions where an incorrect AI response could have important consequences.
+
+### R - Reflection
+
+I learned that using AI does not remove human responsibility. AI can help with information and suggestions, but a person should verify important results before acting on them. The level of verification should depend on how serious the possible consequences are.
+
+### Responsible AI rule
+
+I will use AI to assist with important decisions, but I will verify the evidence and keep the final decision with a responsible human when the consequences of an error are significant.
