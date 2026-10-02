@@ -403,3 +403,47 @@ I checked the public information from Google, Spotify, and Apple before deciding
 ### R - Reflection
 
 I learned that AI is already part of many applications I use every day. Before this question, I did not think much about things like spam filtering, map predictions, music recommendations, and face recognition as AI systems. I also learned that not every automated feature needs AI because some simple tasks can be done using fixed rules.
+
+
+
+## Q9 - Prediction, Classification, and Generation
+
+### A - Answer
+
+The three task types are Prediction, Classification, and Generation. Some real AI systems can use more than one type, but here I classified each example based on its main task.
+
+### Classification
+
+| Example | Task type | Reason |
+|---|---|---|
+| A. Predicting house prices | Prediction | The system estimates a future or unknown house price using available information such as location, size, and other features. |
+| B. Detecting whether an image contains a cat | Classification | The system decides which category the image belongs to, such as cat or not cat. |
+| C. Writing an email from a short instruction | Generation | The system creates new text based on the instruction given by the user. |
+| D. Predicting whether a customer will cancel a subscription | Prediction | The system estimates whether the customer is likely to cancel based on available data. |
+| E. Summarizing a research paper | Generation | The system creates a shorter version of the original text while keeping the main points. |
+| F. Identifying whether a transaction is fraudulent | Classification | The system classifies the transaction as fraudulent or not fraudulent. |
+| G. Generating an image from a text description | Generation | The system creates a new image based on the text description. |
+| H. Predicting the next word/token in a sentence | Prediction | The model predicts which token is likely to come next based on the previous context. |
+
+### Why is next-token prediction important?
+
+Next-token prediction is a basic part of how modern language models generate text. The model looks at the tokens that came before and predicts what token should come next.
+
+The model repeats this process one token at a time. This can produce longer outputs such as emails, summaries, answers, and code. So even though the final application may look like writing or question answering, the model is still generating the response by predicting the next token step by step.
+
+### E - Evidence
+
+I checked the explanation of next-token prediction using a technical educational source about large language models.
+
+Source:
+- [IBM Think - What are Large Language Models (LLMs)?](https://www.ibm.com/think/topics/large-language-models)
+
+### V - Verification
+
+I checked each example based on its main task. Prediction is used when the system estimates an unknown or future value, classification is used when it selects a category, and generation is used when it creates new content.
+
+I also checked that the explanation of next-token prediction matches the basic working idea of a language model.
+
+### R - Reflection
+
+This question helped me understand the difference between prediction, classification, and generation. I also understood that many things that look different, such as writing an email and answering a question, can use the same basic next-token prediction process.
